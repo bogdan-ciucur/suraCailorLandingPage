@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+
+/* adding background image to the head of the page */
+.bg-img {
+    background-image: url(./assets/images/wallpaper.jpg);
+    width: 100%;
+    height: 500px;
+    /* margin-top: -350px; */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* about section */
+
+
+/* .about-section {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+} */
+
+/* custom shadow class */
+.shadow-custom {
+    
+}
+
+
+/* adding the first image  of the about section*/
+.about-photo-1 {
+    background-image: url(./assets/images/1.jpg);
+}
+
+
+/* adding the second image  of the about section*/
+.about-photo-2 {
+    background-image: url(./assets/images/2.jpg);
+}
+
+.about-photo {
+    width: 100%;
+    height: 600px;
+}
+
