@@ -20,40 +20,48 @@
 
 
 
+    <!-- scroll on top button -->
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+
+    <!-- first section -->
     <!-- background image -->
 
     <div class="bg-img shadow-lg">
 
 
+
         <!-- navbar -->
-        <nav class="autohide nav-div pt-5">
-        
-            <ul class="nav-div nav justify-content-center">
-                <li>
-                    <a class=" scale btn-navbar h4 evenimente ro nav-link" style="color:#f4f4f4" href="#scrollspyHeading1" >Evenimente</a>
-                </li>
-            
-            
-            
-                <li>
-                    <a class="text-shado scale btn-navbar h4 preturi ro nav-link" style="color:#f4f4f4" href="#scrollspyHeading2">Preturi</a>
-                </li>
-            
-            
-            
+        <div class="container  p-2">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <h2>sura cailor</h2>
+                    <span class="hidden"></span>
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="toggleMobileMenu">
                 
-                <li>
-                    <a class="text-shado scale btn-navbar h4 echipa ro nav-link" style="color:#f4f4f4" href="#scrollspyHeading3">Echipa</a>
-                </li>
-            
-                
-                <li>
-                    <a class="text-shado scale btn-navbar h4 contact ro nav-link" style="color:#f4f4f4" href="#scrollspyHeading4">Contact</a>
-                </li>
-                
-            </ul>
-            
-        </nav>
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li>
+                            <a class="h3 nav-link m-3" href="#scrollspyHeading1" >Despre noi</a>
+                        </li>
+                        <li>
+                            <a class="h3 nav-link m-3" href="#scrollspyHeading2">Servicii</a>
+                        </li>
+                        <li>
+                            <a class="h3 nav-link m-3" href="#scrollspyHeading3">Contact</a>
+                        </li>
+                      
+                    </ul>
+                    
+    
+                </div>
+            </nav>
+          </div>
     </div>
 
 
@@ -62,11 +70,9 @@
 
 
 
-
-
-
+    <!-- second section -->
     <!-- about section and some phots  -->
-    <div class="about-section  container mt-5">
+    <div class="about-section  container mt-5" id="scrollspyHeading1">
 
 
 
@@ -80,11 +86,13 @@
 
             </div>
 
+
+
             <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-4 ml-5 mt-5 text-center">
 
                 <div class="title mt-5"><h1>About us</h1></div>
                 <div class="info-text">
-                    <h5 class="mt-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit itaque repudiandae labore incidunt at, atque assumenda. Ratione assumenda pariatur asperiores?</h5>
+                    <h3 class="mt-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit itaque repudiandae labore incidunt at, atque assumenda. Ratione assumenda pariatur asperiores?</h5>
                 </div>   
             </div>
 
@@ -92,14 +100,17 @@
             
 
             <!-- second section with text and photo -->
+            
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-4 mr-5 mt-5 text-center">
 
                 <div class="title mt-5"><h1>About us</h1></div>
                 <div class="info-text">
-                    <h5 class="mt-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit itaque repudiandae labore incidunt at, atque assumenda. Ratione assumenda pariatur asperiores?</h5>
+                    <h3 class="mt-5 p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit itaque repudiandae labore incidunt at, atque assumenda. Ratione assumenda pariatur asperiores?</h5>
                 </div>   
 
             </div>
+
+
 
             <div class=" col-xl-6 col-lg-6 col-md-6 col-sm-12 mb-4 ml-5 mt-5">
 
@@ -109,20 +120,200 @@
 
             
         </div>
+    </div>
 
 
 
+    <!-- third section, a photo with some text/quote -->
+
+    
+    <div class="text-center bg-img-quote mt-5 shadow-custom">
+
+        <div class="mt-5">
+            <div class="mt-5">
+    
+                <h1 class="text-center text-vertical-align mt-5">“Pe pamant, fericirea se traduce prin trei lucruri: soare frumos, o femeie si un cal!”</h2>    
+            </div>
+
+            <div class="mt-5 author text-vertical-align">
+                <h3>Theophile Gautier</h3>
+            </div>
+        </div>
 
     </div>
 
 
 
+    <!-- fourth section -->
+    <!-- services section -->
+
+    <div class="container mt-5 p-5">
+        <div class="pricing row">
+            <h1 class="text-pricing text-center preturi-informative" id="scrollspyHeading2">Lista Servicii </h1>
+
+          
+            <div class="col-lg-4 col-md-12 mb-5 mt-5">
+                <div class="card-style card h-100 shadow-">
+                    <div class=" card-body">
+                        <div class="text-center p-3">
+                        <h5 class=" card-title inchiriere-teren">Serviciu</h5>
+                        <small class="fara-antrenor">info</small>
+                        <br><br>
+                        <span class="h2">X lei</span>
+                        <span class="ora1">
+                            /ora
+                        </span>
+                        <br><br>
+                        </div>
+                        <p class=" card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, pariatur.</p>
+                    </div>
+
+
+                    <ul class="list-group list-group-flush text-center">
+
+                        <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                        </svg>beneficii</li>
+
+                        <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                        </svg>beneficii</li>
+
+                        <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                        </svg>beneficii</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-12 mb-5 mt-5">
+                <div class="card-style card h-100 shadow-">
+                    <div class=" card-body">
+                        <div class="text-center p-3">
+                        <h5 class=" card-title inchiriere-teren">Serviciu</h5>
+                        <small class="fara-antrenor">info</small>
+                        <br><br>
+                        <span class="h2">X lei</span>
+                        <span class="ora1">
+                            /ora
+                        </span>
+                        <br><br>
+                        </div>
+                        <p class=" card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, pariatur.</p>
+                    </div>
+
+
+                    <ul class="list-group list-group-flush text-center">
+
+                        <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                        </svg>beneficii</li>
+
+                        <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                        </svg>beneficii</li>
+
+                        <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                        </svg>beneficii</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-12 mb-5 mt-5">
+                <div class="card-style card h-100 shadow-">
+                    <div class=" card-body">
+                        <div class="text-center p-3">
+                        <h5 class=" card-title inchiriere-teren">Serviciu</h5>
+                        <small class="fara-antrenor">info</small>
+                        <br><br>
+                        <span class="h2">X lei</span>
+                        <span class="ora1">
+                            /ora
+                        </span>
+                        <br><br>
+                        </div>
+                        <p class=" card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, pariatur.</p>
+                    </div>
+
+
+                    <ul class="list-group list-group-flush text-center">
+
+                        <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                        </svg>beneficii</li>
+
+                        <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                        </svg>beneficii</li>
+
+                        <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                        <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                        </svg>beneficii</li>
+                    </ul>
+                </div>
+            </div>
 
 
 
 
+        </div>    
+    </div>
 
 
+
+    <!-- fifth section -->
+    <!-- photo section -->
+
+    <div class="photo-showcase shadow-custom">
+
+    </div>
+
+
+      
+    <!-- 6th section -->
+    <!-- contact area -->
+
+    <div class="container mt-5 mb-2">
+        <h1 class="text-center" id="scrollspyHeading3">Contact</h1>
+        <div class="row mt-5">
+
+            <div class="col-lg-6 text-center">
+                <h2>Nr. de telefon</h2>
+
+
+
+
+                <br><br>
+                <h2 class="mt-5">Program</h2>
+
+                <div>
+                    <small>L-V :</small>
+                </div>
+
+                <div>
+                    <small>S : </small>
+                </div>
+
+                <div>
+                    <small>D : </small>
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6 text-center">
+                <div class="gmap">
+                    <iframe class="shadow-custom" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2721.1011087446263!2d22.062428251375966!3d46.9989876376432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47463b82a74f348d%3A0xe9d2513db50cee04!2s%C8%98ura%20Cailor!5e0!3m2!1sen!2sro!4v1649866804345!5m2!1sen!2sro" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+            </div>
+
+        </div>
+    </div>
 
 
 
@@ -135,6 +326,7 @@
 
 <!-- bootstrap js -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 
 <!-- fontawesome cdn -->
 <script src="https://kit.fontawesome.com/7b43c0d446.js" crossorigin="anonymous"></script>

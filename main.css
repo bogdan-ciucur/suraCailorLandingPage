@@ -1,11 +1,11 @@
 * {
     padding: 0;
     padding: 0;
-    overflow-x: hidden;
-
+    
 }
 
 .body {
+    /* overflow-x: hidden; */
     overflow-x: hidden;
 }
 
@@ -14,43 +14,129 @@
 .bg-img {
     background-image: url(./assets/images/wallpaper.jpg);
     width: 100%;
-    height: 500px;
+    height: 800px;
     /* margin-top: -350px; */
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
 
-/* about section */
+.bg-img-quote {
+    background-image: url(./assets/images/22.jpg);
+    width: 100%;
+    height: 700px;
+    /* margin-top: -350px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+
+}
 
 
-/* .about-section {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-} */
+/* styling the back on top button */
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border-color: #f4f4f4; */
+    background-color: #333;
+    color: #f4f4f4;
+    opacity: 50%;
+    z-index: 1;
+    transition: transform .2s;
+}
+
+#btn-back-to-top:hover {
+    transform: scale(0.85);
+    opacity: 100%;
+}
+
+
+
+
 
 /* custom shadow class */
 .shadow-custom {
-    
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 
 /* adding the first image  of the about section*/
 .about-photo-1 {
     background-image: url(./assets/images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
 /* adding the second image  of the about section*/
 .about-photo-2 {
-    background-image: url(./assets/images/2.jpg);
+    background-image: url(./assets/images/8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 .about-photo {
     width: 100%;
-    height: 600px;
+    height: 800px;
+}
+
+
+
+/* creating a class for vertical alignment for text */
+.text-vertical-align {
+    color: #f4f4f4;
+    text-align: center;
+}
+
+
+
+.h {
+    width: 400px !important;
+    height: 700px !important;
+
+}
+
+
+.card-style {
+    border:none;
+    padding: 10px 50px;
+    transition: all 0.2s
+}
+
+
+.card-style:hover {
+
+    cursor: pointer;
+    transform: scale(0.99);
+    -webkit-transform: scale(0.99);
+    backface-visibility: hidden; 
+    will-change: transform;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.25) !important;
+    transition: ease-in 0.2s;
+}
+
+.photo-showcase {
+    background-image: url(./assets/images/5.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
 }
 
