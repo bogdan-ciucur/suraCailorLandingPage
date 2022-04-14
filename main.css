@@ -53,12 +53,28 @@
     color: #f4f4f4;
     opacity: 50%;
     z-index: 1;
+
+
+
+    /* making  */
     transition: transform .2s;
+    -webkit-transition: transform .2s;
+    -moz-transition: transform .2s;
+    -ms-transition: transform .2s;
+    -o-transition: transform .2s;
 }
 
 #btn-back-to-top:hover {
     transform: scale(0.85);
+    -webkit-transform:  scale(0.85);
+    -moz-transform:  scale(0.85);
+    -ms-transform:  scale(0.85);
+    -o-transform:  scale(0.85);
     opacity: 100%;
+
+
+
+
 }
 
 
